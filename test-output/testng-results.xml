@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-08T18:11:23 IST" name="LoginSuite" finished-at="2022-05-08T18:13:12 IST" duration-ms="108340">
+    <groups>
+    </groups>
+    <test started-at="2022-05-08T18:11:23 IST" name="LoginTest_OnChrome" finished-at="2022-05-08T18:12:01 IST" duration-ms="37889">
+      <class name="com.TestCases.VerifyLoginFlipkart_TC001">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.TestCases.VerifyLoginFlipkart_TC001@3e6104fc]" started-at="2022-05-08T18:11:23 IST" name="SetUp" finished-at="2022-05-08T18:11:56 IST" duration-ms="32281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.TestCases.VerifyLoginFlipkart_TC001@3e6104fc]" started-at="2022-05-08T18:11:56 IST" name="verifyLogin" finished-at="2022-05-08T18:12:00 IST" duration-ms="4308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.VerifyLoginFlipkart_TC001@3e6104fc]" started-at="2022-05-08T18:12:01 IST" name="tearDown" finished-at="2022-05-08T18:12:01 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.VerifyLoginFlipkart_TC001 -->
+    </test> <!-- LoginTest_OnChrome -->
+    <test started-at="2022-05-08T18:12:02 IST" name="LoginTest_OnEdge" finished-at="2022-05-08T18:13:12 IST" duration-ms="69200">
+      <class name="com.TestCases.VerifyLoginFlipkart_TC001">
+        <test-method is-config="true" signature="configSetup()[pri:0, instance:com.TestCases.VerifyLoginFlipkart_TC001@416c58f5]" started-at="2022-05-08T18:11:22 IST" name="configSetup" finished-at="2022-05-08T18:11:23 IST" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetup -->
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.TestCases.VerifyLoginFlipkart_TC001@416c58f5]" started-at="2022-05-08T18:12:02 IST" name="SetUp" finished-at="2022-05-08T18:12:50 IST" duration-ms="47902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.TestCases.VerifyLoginFlipkart_TC001@416c58f5]" started-at="2022-05-08T18:12:50 IST" name="verifyLogin" finished-at="2022-05-08T18:12:54 IST" duration-ms="4027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.VerifyLoginFlipkart_TC001@416c58f5]" started-at="2022-05-08T18:13:11 IST" name="tearDown" finished-at="2022-05-08T18:13:12 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.VerifyLoginFlipkart_TC001 -->
+    </test> <!-- LoginTest_OnEdge -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
